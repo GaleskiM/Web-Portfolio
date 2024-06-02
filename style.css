@@ -1,0 +1,131 @@
+.navbar{
+    position: fixed;
+     overflow: visible;
+  }
+  html {
+    scroll-padding-top: 4rem;
+  }
+  
+  #hero-section {  
+    position: relative;
+    background-image: url("img/education.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aquamarine;
+    }
+  
+  h5 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(206, 255, 239);
+    }
+  
+  .mission p {
+    text-align: right;
+  }
+  
+  .hero {
+    padding-top: 200px;
+  }
+  
+  #mission-section {
+    background-color: #240750;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #skills-section {
+    background-color: #344C64;
+  }
+  
+  #contact-section {
+    background-color: #577B8D;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+  }
+  
+  .image {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    width: auto;
+    height: auto;
+  }
+  
+  .icons {
+    width: 75px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding-top: 5px;
+  }
+
+  .web {
+    float:left;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  .w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
+  
+  .icon:hover {
+    filter: hue-rotate(90deg);
+  }
+  
+  .icons:hover {
+    filter: hue-rotate(90deg);
+  }
+
+  .Boot:hover {
+    filter: hue-rotate(90deg);
+  }
+  
+  .image:hover {
+    filter: hue-rotate(180deg);
+  }
+  
+  #travel-section {
+    background-color: #57A6A1;
+  }
+  
+  #footer-section {
+    text-align: center;
+  }
+
+  #contact-section button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
